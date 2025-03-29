@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Rock Paper Scissors</h1>
+        <p class="choice-text">Make Your Choice:</p>
+
+        <div class="buttons-container">
+            <button class="game-button" data-choice="rock">
+                <img class="rps-img" src="Pictures/rock-emoji.png" alt="Rock">
+            </button>
+            <button class="game-button" data-choice="paper">
+                <img class="rps-img" src="Pictures/paper-emoji.png" alt="Paper">
+            </button>
+            <button class="game-button" data-choice="scissors">
+                <img class="rps-img" src="Pictures/scissors-emoji.png" alt="Scissors">
+            </button>
+        </div>
+
+        <p class="decision"></p>
+        <p class="picks"></p>
+
+        <button class="reset-button ">Reset Score</button>
+        <button class="autoplay-button">Autoplay</button>
+
+        <p class="results"></p>
+
+        <div class="hotKeys">
+            <span>Hot Keys:</span>
+            <ul>
+                <li>
+                    R - play rock
+                    <img src="Pictures/rock-emoji.png" alt="">
+                </li>
+                <li>
+                    P - play paper
+                    <img src="Pictures/paper-emoji.png" alt="">
+                </li>
+                <li>
+                    S - play sissiors
+                    <img src="Pictures/scissors-emoji.png" alt="">
+                </li>
+                <li>A - autoplay</li>
+                <li>Backspace - reset score</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
