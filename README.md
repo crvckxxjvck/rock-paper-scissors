@@ -24,11 +24,10 @@ This is a simple **Rock Paper Scissors** game built using **HTML, CSS, and JavaS
 - Randomization for computer's choices
 
 ## How to Play
-1. Open `index.html` in your browser or play it online here: [Rock Paper Scissors Game](https://vlad1shpota.github.io/rock-paper-scissors/)
+1. Open `index.html` in your browser or play it online here: [Rock Paper Scissors Game](https://rps-game123.netlify.app/)
 2. Click on one of the buttons (**Rock**, **Paper**, or **Scissors**) to make a choice.
 3. The computer randomly selects a choice, and the result is displayed.
 4. Use the **hotkeys** for quicker interaction.
 5. Click **Reset Score** to clear your stats.
 6. Click **Autoplay** to let the computer play automatically.
 
-Enjoy the game! 🚀
